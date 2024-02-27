@@ -1,0 +1,12 @@
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+backend:
+  name: test-repo
+collections:
+  - name: "article"
+    label: "Article"
+    folder: "articles"
+    slug: "{{slug}}"
+    fields:
+      - { label: "title", name: "title", widget: "string" }
+      - { label: "body", name: "body", widget: "markdown" }
