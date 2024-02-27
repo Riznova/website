@@ -2,7 +2,7 @@
   "name": "riznova-gridsome",
   "private": true,
   "scripts": {
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && gridsome build",
+    "build": "gridsome build",
     "develop": "gridsome develop --host 0.0.0.0 --port 8000",
     "explore": "gridsome explore"
   },
