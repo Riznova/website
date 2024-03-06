@@ -4,7 +4,6 @@
 import { initializeApp } from "firebase/app";
 import firebase from "firebase/compat/app"
 import {getFirestore} from "firebase/firestore"
-import { getAnalytics } from "firebase/analytics";
 import DefaultLayout from '~/layouts/Default.vue'
 
 
@@ -36,7 +35,6 @@ export default function (Vue, { router, head, appOptions }) {
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
 
   Vue.prototype.$db = getFirestore(app);
 
