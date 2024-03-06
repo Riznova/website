@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@gridsome/source-filesystem": "^0.6.2",
+    "firebase": "^10.8.1",
     "gridsome": "^0.7.0",
     "gridsome-plugin-netlify-cms": "^1.0.9",
     "netlify-cms": "^2.10.192"
