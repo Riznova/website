@@ -30,7 +30,7 @@
                     <a href="/client-side-inference">Blog</a>
                   </li> -->
                   <li>
-                    <a href="#Partners">Partners</a>
+                    <a href="#Blog">Blog</a>
                   </li>
                   <!-- <li>
                     <a style="cursor: pointer;" class="custom-icon_btn">Contact</a>
@@ -51,18 +51,11 @@
     <footer class="cs-fooer">
       <div class="container">
         <div class="cs-bottom_footer">
-          <div class="cs-bottom_footer_left">
-            <div class="cs-copyright">Copyright © 2023 Laralink.</div>
+          <div class="cs-bottom_footer_left" style="display: flex; align-items: center;">
+            <div class="cs-copyright">Copyright © 2024 Riznova.</div>
           </div>
           <div class="cs-bottom_footer_right">
-            <ul class="cs-footer_links cs-mp0">
-              <li>
-                <a href="">Terms of Use</a>
-              </li>
-              <li>
-                <a href="">Privacy Policy</a>
-              </li>
-            </ul>
+            <img style="width: 150px;" src="../assets/img/riznova.png" alt="Riznova">
           </div>
         </div>
       </div>

@@ -14,7 +14,7 @@
           <h1 class="cs-hero_title wow fadeInRight" data-wow-duration="0.8s" data-wow-delay="0.2s">Empowering for Boundless Success</h1>
           <div class="cs-hero_info">
             <div>
-              <a href="#" id="contact_btn" class="cs-text_btn">
+              <a href="#contact" id="contact_btn" class="cs-text_btn">
                 <span>Get a Quote</span>
                 <svg width="26" height="12" viewBox="0 0 26 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M25.5303 6.53033C25.8232 6.23744 25.8232 5.76256 25.5303 5.46967L20.7574 0.696699C20.4645 0.403806 19.9896 0.403806 19.6967 0.696699C19.4038 0.989593 19.4038 1.46447 19.6967 1.75736L23.9393 6L19.6967 10.2426C19.4038 10.5355 19.4038 11.0104 19.6967 11.3033C19.9896 11.5962 20.4645 11.5962 20.7574 11.3033L25.5303 6.53033ZM0 6.75H25V5.25H0V6.75Z" fill="currentColor" />
@@ -106,7 +106,7 @@
               <h3 class="cs-section_subtitle">What Can We Do</h3>
               <h2 class="cs-section_title">Services we can help you with</h2>
               <div class="cs-height_45 cs-height_lg_20"></div>
-              <a href="service.html" class="cs-text_btn wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">
+              <a href="#contact" class="cs-text_btn wow fadeInLeft" data-wow-duration="0.8s" data-wow-delay="0.2s">
                 <span>Get a Qoute</span>
                 <svg width="26" height="12" viewBox="0 0 26 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M25.5303 6.53033C25.8232 6.23744 25.8232 5.76256 25.5303 5.46967L20.7574 0.696699C20.4645 0.403806 19.9896 0.403806 19.6967 0.696699C19.4038 0.989593 19.4038 1.46447 19.6967 1.75736L23.9393 6L19.6967 10.2426C19.4038 10.5355 19.4038 11.0104 19.6967 11.3033C19.9896 11.5962 20.4645 11.5962 20.7574 11.3033L25.5303 6.53033ZM0 6.75H25V5.25H0V6.75Z" fill="currentColor"></path>
@@ -193,7 +193,7 @@
             <div class="cs-height_45 cs-height_lg_20"></div>
             <div class="cs-hero_info">
               <div>
-                <a href="contact.html" class="cs-text_btn">
+                <a href="#contact" class="cs-text_btn">
                   <span>Get a Quote</span>
                   <svg width="26" height="12" viewBox="0 0 26 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M25.5303 6.53033C25.8232 6.23744 25.8232 5.76256 25.5303 5.46967L20.7574 0.696699C20.4645 0.403806 19.9896 0.403806 19.6967 0.696699C19.4038 0.989593 19.4038 1.46447 19.6967 1.75736L23.9393 6L19.6967 10.2426C19.4038 10.5355 19.4038 11.0104 19.6967 11.3033C19.9896 11.5962 20.4645 11.5962 20.7574 11.3033L25.5303 6.53033ZM0 6.75H25V5.25H0V6.75Z" fill="currentColor" />
@@ -278,6 +278,20 @@
                 <div class="cs-portfolio_info">
                   <div class="cs-portfolio_info_bg cs-accent_bg"></div>
                   <h2 class="cs-portfolio_title">Uptal</h2>
+                  <div class="cs-portfolio_subtitle">Take a Look
+                    <img src="../assets/img/icons/right_arrow_white.svg" />
+                  </div>
+                </div>
+              </a>
+            </div>
+            <!-- .cs-slide -->
+            <div class="cs-slide">
+              <a href="https://www.ketos.co/" target="_blank" class="cs-portfolio cs-style1 cs-bg">
+                <div class="cs-portfolio_hover"></div>
+                <div class="cs-portfolio_bg" data-src="/img/portfolio/ketos.png"></div>
+                <div class="cs-portfolio_info">
+                  <div class="cs-portfolio_info_bg cs-accent_bg"></div>
+                  <h2 class="cs-portfolio_title">Ketos</h2>
                   <div class="cs-portfolio_subtitle">Take a Look
                     <img src="../assets/img/icons/right_arrow_white.svg" />
                   </div>
@@ -448,6 +462,7 @@
     </section>
     <!-- End Blog Section -->
     <!-- End Moving Text -->
+    <div class="cs-height_70 cs-height_lg_100"></div>
     <div class="cs-moving_text_wrap cs-bold cs-primary_font">
       <div class="cs-moving_text_in">
         <div class="cs-moving_text"> Let’s disscuse make something <i>cool</i> together </div>
