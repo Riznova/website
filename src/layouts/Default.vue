@@ -21,10 +21,10 @@
                     <a href="#service">Services</a>
                   </li>
                   <li>
-                    <a href="#Portfolio">Portfolio</a>
+                    <a href="#About">About</a>
                   </li>
                   <li>
-                    <a href="#About">About</a>
+                    <a href="#Portfolio">Portfolio</a>
                   </li>
                   <!-- <li>
                     <a href="/client-side-inference">Blog</a>
@@ -32,13 +32,10 @@
                   <li>
                     <a href="#Blog">Blog</a>
                   </li>
-                  <!-- <li>
-                    <a style="cursor: pointer;" class="custom-icon_btn">Contact</a>
-                  </li> -->
                 </ul>
               </div>
             </div>
-            <a href="#contact" style="font-family: sans-serif; font-size: 15px; font-weight: 500;" id="contact_btn" class="cs-newsletter_btn custom-icon_btn">
+            <a href="#contact" style="font-family: sans-serif; font-size: 15px; font-weight: bold;" id="contact_btn" class="cs-newsletter_btn custom-icon_btn">
               <span>Contact</span>
             </a>
           </div>

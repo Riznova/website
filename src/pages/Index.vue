@@ -179,7 +179,7 @@
     <!-- End Service Section -->
 
     <!-- Start Awards Text -->
-    <section class="cs-shape_wrap_2">
+    <section id="About" class="cs-shape_wrap_2">
       <div class="cs-shape_2">
         <div></div>
       </div>
@@ -207,21 +207,6 @@
             <p><span class="initial">When it comes</span> to remaining competitive, elevating your business, and meeting your clients demands, this is where we enter the picture. we devote our efforts to help you in bringing new innovative products & scerives to market while also improving or enhancing existing offerings.</p>
             <br />
             <p><span class="initial">Our Research and Development</span> process seeks to solve your discovered complex business issues, and highlight the undiscovered ones.</p>
-            <!-- <div class="cs-slider_container" data-autoplay="0" data-loop="1" data-speed="600" data-center="0" data-slides-per-view="responsive" data-xs-slides="1" data-sm-slides="2" data-md-slides="2" data-lg-slides="2" data-add-slides="2">
-              <div class="cs-slider_wrapper">
-                <div class="cs-slide">
-                  <div class="cs-time_line cs-style1">
-                    <p>When it comes to remaining competitive, elevating your business, and meeting your clients demands, this is where we enter the picture. we devote our efforts to help you in bringing new innovative products & scerives to market while also improving or enhancing existing offerings.</p>
-
-                  </div>
-                  <div class="cs-height_40 cs-height_lg_30"></div>
-                  <div class="cs-time_line cs-style1">
-                    <p>Our Research and Development process seeks to solve your discovered complex business issues, and highlight the undiscovered ones.</p>
-
-                  </div>
-                </div>
-              </div>
-            </div> -->
           </div>
         </div>
         <!-- .cs-slider -->
@@ -484,7 +469,7 @@
         <input v-model="name" type="text" class="cs-newsletter_input" style="border-radius: 25px;padding: 5px 15px; margin: 5px auto; grid-area: a;" placeholder="Enter your name">
         <input v-model="email" type="email" class="cs-newsletter_input" style="border-radius: 25px;padding: 5px 15px; margin: 5px auto; grid-area: b;" placeholder="Enter your email address">
         <textarea v-model="msg" class="cs-newsletter_input" style="padding: 5px 15px; margin: 5px auto; height: auto; resize: none;" rows="10" placeholder="Enter your message"></textarea>
-        <div style="grid-area: t">
+        <div style="grid-area: t; margin-top: 10px;">
           <p style="margin: 0;">* Don't worry, we will not spam your inbox</p>
           <input :disabled="loading" type="submit" :value="loading ? 'loading ...' : 'Send'" class="cs-newsletter_btn custom-icon_btn" style="position: relative; grid-area: d;"/>
         </div>
@@ -492,7 +477,7 @@
 
     </div>
     <!-- End Partner Logo -->
-    <div class="cs-height_130 cs-height_lg_70"></div>
+    <div class="cs-height_70 cs-height_lg_40"></div>
   </Layout>
 </template>
 
