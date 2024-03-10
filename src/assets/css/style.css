@@ -4361,6 +4361,18 @@ label {
                 "t t" / 1fr 1fr;
   align-items: center;
 }
+
+@media screen and (max-width: 900px) {
+  .cs-newsletter_form.grid {
+    grid-template: 
+                  "title title" auto
+                  "a a" auto
+                  "b b" auto
+                  "c c" auto
+                  "t t" / 1fr 1fr;
+  }
+}
+
 .cs-newsletter_form.grid textarea {
   grid-area: c;
 }
@@ -4462,8 +4474,26 @@ label {
   border: none;
   overflow: hidden;
 }
-header .cs-newsletter_btn{
-  top: 25px !important;
+#nav_cta {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* max-height: 50px; */
+}
+#nav_cta a {
+  justify-content: center;
+  align-items: center;
+  position:relative;
+  top: 0;
+  right: 0;
+  max-height: 50px;
+}
+
+@media screen and (max-width: 1199px) {
+  #nav_cta {
+    display: block;
+    padding: 0 20px;
+  }
 }
 .cs-newsletter.cs-style1 .cs-newsletter_btn:before, header .cs-newsletter_btn:before {
   content: "";

@@ -32,12 +32,19 @@
                   <li>
                     <a href="#Blog">Blog</a>
                   </li>
+                  <li id="nav_cta">
+                    <a href="#contact" style="font-family: sans-serif; font-size: 15px; font-weight: bold;" id="contact_btn" class="cs-newsletter_btn custom-icon_btn">
+                      <span>Contact</span>
+                    </a>
+                  </li>
                 </ul>
               </div>
             </div>
-            <a href="#contact" style="font-family: sans-serif; font-size: 15px; font-weight: bold;" id="contact_btn" class="cs-newsletter_btn custom-icon_btn">
-              <span>Contact</span>
-            </a>
+            <!-- <div class="cs-main_header_right">
+              <a href="#contact" style="font-family: sans-serif; font-size: 15px; font-weight: bold;" id="contact_btn" class="cs-newsletter_btn custom-icon_btn">
+                <span>Contact</span>
+              </a>
+            </div> -->
           </div>
         </div>
       </div>
