@@ -346,6 +346,51 @@
                 <div class="cs-slider_wrapper">
                   <div class="cs-slide">
                     <div class="cs-post cs-style1">
+                      <a href="https://www.linkedin.com/pulse/ultimate-guide-all-user-testing-methods-ux-riznova-gnqsf" target="_blank" class="cs-post_thumb">
+                        <img src="../assets/img/blog/first-article.jpg" alt="Post" />
+                        <div class="cs-post_overlay"></div>
+                      </a>
+                      <div class="cs-post_info">
+                        <div class="cs-posted_by">07 Mar 2024</div>
+                        <h2 class="cs-post_title">
+                          <a href="https://www.linkedin.com/pulse/ultimate-guide-all-user-testing-methods-ux-riznova-gnqsf" target="_blank">The Ultimate guide to all User Testing methods in UX.</a>
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- .cs-slide -->
+                  <div class="cs-slide">
+                    <div class="cs-post cs-style1">
+                      <a href="https://www.linkedin.com/pulse/unleashing-power-gpu-computing-new-era-technological-advancement-u8fwf%3D" target="_blank" class="cs-post_thumb">
+                        <img src="../assets/img/blog/second-article.jpg" alt="Post" />
+                        <div class="cs-post_overlay"></div>
+                      </a>
+                      <div class="cs-post_info">
+                        <div class="cs-posted_by">8 Mar 2024</div>
+                        <h2 class="cs-post_title">
+                          <a href="https://www.linkedin.com/pulse/unleashing-power-gpu-computing-new-era-technological-advancement-u8fwf%3D" target="_blank">Unleashing the Power of GPU Computing: A New Era in Technological Advancement</a>
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- .cs-slide -->
+                  <div class="cs-slide">
+                    <div class="cs-post cs-style1">
+                      <a href="https://www.linkedin.com/pulse/evolution-cloud-computing-riznova-ows7f" target="_blank" class="cs-post_thumb">
+                        <img src="../assets/img/blog/third-article.jpg" alt="Post" />
+                        <div class="cs-post_overlay"></div>
+                      </a>
+                      <div class="cs-post_info">
+                        <div class="cs-posted_by">13 Mar 2024</div>
+                        <h2 class="cs-post_title">
+                          <a href="https://www.linkedin.com/pulse/evolution-cloud-computing-riznova-ows7f" target="_blank">The Evolution of Cloud Computing.</a>
+                        </h2>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- .cs-slide -->
+                  <!-- <div class="cs-slide">
+                    <div class="cs-post cs-style1">
                       <a href="blog-details.html" class="cs-post_thumb">
                         <img src="../assets/img/post_1.jpeg" alt="Post" />
                         <div class="cs-post_overlay"></div>
@@ -357,9 +402,9 @@
                         </h2>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- .cs-slide -->
-                  <div class="cs-slide">
+                  <!-- <div class="cs-slide">
                     <div class="cs-post cs-style1">
                       <a href="blog-details.html" class="cs-post_thumb">
                         <img src="../assets/img/post_2.jpeg" alt="Post" />
@@ -372,9 +417,9 @@
                         </h2>
                       </div>
                     </div>
-                  </div>
+                  </div> -->
                   <!-- .cs-slide -->
-                  <div class="cs-slide">
+                  <!-- <div class="cs-slide">
                     <div class="cs-post cs-style1">
                       <a href="blog-details.html" class="cs-post_thumb">
                         <img src="../assets/img/post_3.jpeg" alt="Post" />
@@ -387,52 +432,7 @@
                         </h2>
                       </div>
                     </div>
-                  </div>
-                  <!-- .cs-slide -->
-                  <div class="cs-slide">
-                    <div class="cs-post cs-style1">
-                      <a href="blog-details.html" class="cs-post_thumb">
-                        <img src="../assets/img/post_1.jpeg" alt="Post" />
-                        <div class="cs-post_overlay"></div>
-                      </a>
-                      <div class="cs-post_info">
-                        <div class="cs-posted_by">07 Mar 2022</div>
-                        <h2 class="cs-post_title">
-                          <a href="blog-details.html">How to keep fear from ruining your art business with confident</a>
-                        </h2>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- .cs-slide -->
-                  <div class="cs-slide">
-                    <div class="cs-post cs-style1">
-                      <a href="blog-details.html" class="cs-post_thumb">
-                        <img src="../assets/img/post_2.jpeg" alt="Post" />
-                        <div class="cs-post_overlay"></div>
-                      </a>
-                      <div class="cs-post_info">
-                        <div class="cs-posted_by">10 Feb 2022</div>
-                        <h2 class="cs-post_title">
-                          <a href="blog-details.html">Artistic mind will be great for creation anything</a>
-                        </h2>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- .cs-slide -->
-                  <div class="cs-slide">
-                    <div class="cs-post cs-style1">
-                      <a href="blog-details.html" class="cs-post_thumb">
-                        <img src="../assets/img/post_3.jpeg" alt="Post" />
-                        <div class="cs-post_overlay"></div>
-                      </a>
-                      <div class="cs-post_info">
-                        <div class="cs-posted_by">05 Apr 2022</div>
-                        <h2 class="cs-post_title">
-                          <a href="blog-details.html">A.I will take over all job for human within next year</a>
-                        </h2>
-                      </div>
-                    </div>
-                  </div>
+                  </div> -->
                   <!-- .cs-slide -->
                 </div>
               </div>
