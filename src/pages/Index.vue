@@ -471,7 +471,7 @@
         <textarea v-model="msg" class="cs-newsletter_input" style="padding: 5px 15px; margin: 5px auto; height: auto; resize: none;" rows="10" placeholder="Enter your message"></textarea>
         <div style="grid-area: t; margin-top: 10px;">
           <p style="margin: 0;">* Don't worry, we will not spam your inbox</p>
-          <input :disabled="loading" type="submit" :value="loading ? 'loading ...' : 'Send'" class="cs-newsletter_btn custom-icon_btn" style="position: relative; grid-area: d;"/>
+          <input :disabled="loading" type="submit" :value="getButtonValue" :class="{'cs-newsletter_btn': true, 'custom-icon_btn': true, 'cs-error': !!error, 'cs-success': !!success}" style="position: relative; grid-area: d;"/>
         </div>
       </form>
 
@@ -498,11 +498,36 @@ export default {
       name: "",
       email: "",
       msg: "",
-      loading: false
+      loading: false,
+      success: "",
+      error: ""
+    }
+  },
+  computed: {
+    getButtonValue() {
+      if(this.loading) return "loading..."
+      else if(this.error) return this.error;
+      else if (this.success) return this.success;
+      else return "Send"
     }
   },
   methods: {
+    didSubmit(success) {
+      this.loading = false;
+      if(success) {
+        this.success = "Thanks!"
+        setTimeout(() => {
+          this.success = "";
+        }, 2000);
+      } else {
+        this.error = "Something's wrong!"
+        setTimeout(() => {
+          this.error = "";
+        }, 2000);
+      }
+    },
     sendMsg() {
+      console.log("Send")
       if (this.name && this.email && this.msg) {
         this.loading = true;
         addDoc(collection(this.$db, 'messages'), {
@@ -510,12 +535,10 @@ export default {
           email: this.email,
           body: this.msg
         }).then(res => {
-          console.log(res)
+          this.didSubmit(true);
         }).catch(e => {
-          console.log(e)
-        }).finally(() => {
-          this.loading = false;
-        })
+          this.didSubmit(false);
+        });
       }
     }
   }
